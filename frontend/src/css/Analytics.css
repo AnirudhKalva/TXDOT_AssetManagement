@@ -1,0 +1,75 @@
+.innovative-analytics-page {
+    padding: 20px;
+    background: linear-gradient(120deg, #f3f4f6, #ffffff);
+  }
+  
+  .innovative-header {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(to right, #0088FE, #00C49F);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .innovative-header h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+  
+  .innovative-header p {
+    margin-top: 10px;
+    font-size: 16px;
+    opacity: 0.9;
+  }
+  
+  .analytics-section {
+    margin: 30px 0;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section-header h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #333;
+    border-bottom: 2px solid #0088FE;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .analytics-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center-align all cards horizontally */
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 calc(33% - 20px);
+    min-width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex; /* Enable flex layout for alignment */
+    flex-direction: column; /* Ensure content stacks vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  }

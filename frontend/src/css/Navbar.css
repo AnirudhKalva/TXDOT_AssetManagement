@@ -1,0 +1,51 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Ensures space between logo and links */
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000; /* Ensures it stays above other elements */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Ensures padding doesn't add to width */
+  overflow: hidden; /* Prevents content overflow */
+}
+
+.navbar-logo {
+  font-size: 20px;
+  font-weight: bold;
+  white-space: nowrap; /* Prevents wrapping of the logo text */
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap; /* Allows links to wrap if they don’t fit */
+}
+
+.navbar-links li {
+  white-space: nowrap; /* Prevents wrapping of individual links */
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-links li a:hover {
+  color: #00C49F;
+}
+
+/* Add padding to body to avoid content hiding under navbar */
+body {
+  padding-top: 60px; /* Adjust based on navbar height */  
+  margin: 0; /* Remove any default margin */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}

@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.innovative-header {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(to right, #0088FE, #00C49F);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+/* Header */
+.map-header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.map-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Filters */
+.filters {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px; /* Add gap between filters and the map */
+}
+
+.filters label,
+.filters select {
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+/* Map Container */
+.map-container {
+  height: 500px; 
+  width: 90%;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ .map-wrapper {
+  min-height: 800px; /* Slightly larger than the map */
+  display: flex;
+  flex-direction: column;
+} 
+
+/* Statistics Table */
+.statistics-table {
+  margin: 20px auto;
+  padding: 15px 20px;
+  max-width: 90%;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.styled-table th {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.styled-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-table tr:hover {
+  background-color: #f1f1f1;
+}
+.traffic-signal-map {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 90%;
+  height: 500px; 
+}
